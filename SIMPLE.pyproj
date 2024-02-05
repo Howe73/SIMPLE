@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{577b04d3-3f05-4238-b8d5-81d154262905}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app\requirements.txt" />
+    <Content Include="images\diagram.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo_padded.png" />
+    <Content Include="images\logo_small.png" />
+    <Content Include="images\logo_strapline.png" />
+    <Content Include="images\logo_strapline2.png" />
+    <Content Include="images\sushigo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app\config.py" />
+    <Compile Include="app\environments\butterfly\butterfly\envs\butterfly.py" />
+    <Compile Include="app\environments\butterfly\butterfly\envs\classes.py" />
+    <Compile Include="app\environments\butterfly\butterfly\envs\__init__.py" />
+    <Compile Include="app\environments\butterfly\butterfly\__init__.py" />
+    <Compile Include="app\environments\butterfly\setup.py" />
+    <Compile Include="app\environments\connect4\connect4\envs\connect4.py" />
+    <Compile Include="app\environments\connect4\connect4\envs\__init__.py" />
+    <Compile Include="app\environments\connect4\connect4\__init__.py" />
+    <Compile Include="app\environments\connect4\setup.py" />
+    <Compile Include="app\environments\frouge\frouge\envs\classes.py" />
+    <Compile Include="app\environments\frouge\frouge\envs\frouge.py" />
+    <Compile Include="app\environments\frouge\frouge\envs\__init__.py" />
+    <Compile Include="app\environments\frouge\frouge\__init__.py" />
+    <Compile Include="app\environments\frouge\setup.py" />
+    <Compile Include="app\environments\geschenkt\geschenkt\envs\classes.py" />
+    <Compile Include="app\environments\geschenkt\geschenkt\envs\geschenkt.py" />
+    <Compile Include="app\environments\geschenkt\geschenkt\envs\__init__.py" />
+    <Compile Include="app\environments\geschenkt\geschenkt\__init__.py" />
+    <Compile Include="app\environments\geschenkt\setup.py" />
+    <Compile Include="app\environments\sushigo\setup.py" />
+    <Compile Include="app\environments\sushigo\sushigo\envs\classes.py" />
+    <Compile Include="app\environments\sushigo\sushigo\envs\sushigo.py" />
+    <Compile Include="app\environments\sushigo\sushigo\envs\__init__.py" />
+    <Compile Include="app\environments\sushigo\sushigo\__init__.py" />
+    <Compile Include="app\environments\tictactoe\setup.py" />
+    <Compile Include="app\environments\tictactoe\tictactoe\envs\tictactoe.py" />
+    <Compile Include="app\environments\tictactoe\tictactoe\envs\__init__.py" />
+    <Compile Include="app\environments\tictactoe\tictactoe\__init__.py" />
+    <Compile Include="app\models\butterfly\models.py" />
+    <Compile Include="app\models\connect4\models.py" />
+    <Compile Include="app\models\frouge\models.py" />
+    <Compile Include="app\models\geschenkt\models.py" />
+    <Compile Include="app\models\sushigo\models.py" />
+    <Compile Include="app\models\tictactoe\models.py" />
+    <Compile Include="app\test.py" />
+    <Compile Include="app\train.py" />
+    <Compile Include="app\utils\agents.py" />
+    <Compile Include="app\utils\callbacks.py" />
+    <Compile Include="app\utils\files.py" />
+    <Compile Include="app\utils\register.py" />
+    <Compile Include="app\utils\selfplay.py" />
+    <Compile Include="app\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app" />
+    <Folder Include="app\environments\" />
+    <Folder Include="app\environments\butterfly" />
+    <Folder Include="app\environments\butterfly\butterfly" />
+    <Folder Include="app\environments\butterfly\butterfly\envs" />
+    <Folder Include="app\environments\connect4" />
+    <Folder Include="app\environments\connect4\connect4" />
+    <Folder Include="app\environments\connect4\connect4\envs" />
+    <Folder Include="app\environments\frouge" />
+    <Folder Include="app\environments\frouge\frouge" />
+    <Folder Include="app\environments\frouge\frouge\envs" />
+    <Folder Include="app\environments\geschenkt" />
+    <Folder Include="app\environments\geschenkt\geschenkt" />
+    <Folder Include="app\environments\geschenkt\geschenkt\envs" />
+    <Folder Include="app\environments\sushigo" />
+    <Folder Include="app\environments\sushigo\sushigo" />
+    <Folder Include="app\environments\sushigo\sushigo\envs" />
+    <Folder Include="app\environments\tictactoe" />
+    <Folder Include="app\environments\tictactoe\tictactoe" />
+    <Folder Include="app\environments\tictactoe\tictactoe\envs" />
+    <Folder Include="app\models\" />
+    <Folder Include="app\models\butterfly" />
+    <Folder Include="app\models\connect4" />
+    <Folder Include="app\models\frouge" />
+    <Folder Include="app\models\geschenkt" />
+    <Folder Include="app\models\sushigo" />
+    <Folder Include="app\models\tictactoe" />
+    <Folder Include="app\utils" />
+    <Folder Include="images" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.9" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

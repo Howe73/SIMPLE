@@ -5,13 +5,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{577b04d3-3f05-4238-b8d5-81d154262905}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>app\test2.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|Simple</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>-d -g 1 -a base base human -e sushigo</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -70,6 +73,7 @@
     <Compile Include="app\models\sushigo\models.py" />
     <Compile Include="app\models\tictactoe\models.py" />
     <Compile Include="app\test.py" />
+    <Compile Include="app\test2.py" />
     <Compile Include="app\train.py" />
     <Compile Include="app\utils\agents.py" />
     <Compile Include="app\utils\callbacks.py" />
@@ -113,6 +117,7 @@
     <Folder Include="images" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|Simple" />
     <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

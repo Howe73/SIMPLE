@@ -1,0 +1,408 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 49 files
+Detected 1 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: C:\Users\keith\source\repos\SIMPLE\app\utils\files.py
+--------------------------------------------------------------------------------
+C:\Users\keith\source\repos\SIMPLE\app\utils\files.py:67:20: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+================================================================================
+Detailed log follows:
+
+================================================================================
+================================================================================
+Input tree: 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app'
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\config.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\config.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\test.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\test.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\test2.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\test2.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\train.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\train.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\butterfly\\setup.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\butterfly\\setup.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\butterfly\\butterfly\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\butterfly\\butterfly\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\butterfly\\butterfly\\envs\\butterfly.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\butterfly\\butterfly\\envs\\butterfly.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\butterfly\\butterfly\\envs\\classes.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\butterfly\\butterfly\\envs\\classes.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\butterfly\\butterfly\\envs\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\butterfly\\butterfly\\envs\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\connect4\\setup.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\connect4\\setup.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\connect4\\connect4\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\connect4\\connect4\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\connect4\\connect4\\envs\\connect4.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\connect4\\connect4\\envs\\connect4.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\connect4\\connect4\\envs\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\connect4\\connect4\\envs\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\duelosaurisland\\setup.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\duelosaurisland\\setup.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\duelosaurisland\\sushigo\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\duelosaurisland\\sushigo\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\duelosaurisland\\sushigo\\envs\\classes.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\duelosaurisland\\sushigo\\envs\\classes.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\duelosaurisland\\sushigo\\envs\\sushigo.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\duelosaurisland\\sushigo\\envs\\sushigo.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\duelosaurisland\\sushigo\\envs\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\duelosaurisland\\sushigo\\envs\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\frouge\\setup.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\frouge\\setup.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\frouge\\frouge\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\frouge\\frouge\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\frouge\\frouge\\envs\\classes.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\frouge\\frouge\\envs\\classes.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\frouge\\frouge\\envs\\frouge.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\frouge\\frouge\\envs\\frouge.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\frouge\\frouge\\envs\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\frouge\\frouge\\envs\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\geschenkt\\setup.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\geschenkt\\setup.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\geschenkt\\geschenkt\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\geschenkt\\geschenkt\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\geschenkt\\geschenkt\\envs\\classes.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\geschenkt\\geschenkt\\envs\\classes.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\geschenkt\\geschenkt\\envs\\geschenkt.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\geschenkt\\geschenkt\\envs\\geschenkt.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\geschenkt\\geschenkt\\envs\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\geschenkt\\geschenkt\\envs\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\sushigo\\setup.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\sushigo\\setup.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\sushigo\\sushigo\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\sushigo\\sushigo\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\sushigo\\sushigo\\envs\\classes.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\sushigo\\sushigo\\envs\\classes.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\sushigo\\sushigo\\envs\\sushigo.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\sushigo\\sushigo\\envs\\sushigo.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\sushigo\\sushigo\\envs\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\sushigo\\sushigo\\envs\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\tictactoe\\setup.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\tictactoe\\setup.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\tictactoe\\tictactoe\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\tictactoe\\tictactoe\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\tictactoe\\tictactoe\\envs\\tictactoe.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\tictactoe\\tictactoe\\envs\\tictactoe.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\environments\\tictactoe\\tictactoe\\envs\\__init__.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\environments\\tictactoe\\tictactoe\\envs\\__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\models\\butterfly\\models.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\models\\butterfly\\models.py'
+--------------------------------------------------------------------------------
+
+22:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\models\\connect4\\models.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\models\\connect4\\models.py'
+--------------------------------------------------------------------------------
+
+16:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\models\\frouge\\models.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\models\\frouge\\models.py'
+--------------------------------------------------------------------------------
+
+19:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\models\\geschenkt\\models.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\models\\geschenkt\\models.py'
+--------------------------------------------------------------------------------
+
+22:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\models\\sushigo\\models.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\models\\sushigo\\models.py'
+--------------------------------------------------------------------------------
+
+20:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\models\\tictactoe\\models.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\models\\tictactoe\\models.py'
+--------------------------------------------------------------------------------
+
+16:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\utils\\agents.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\utils\\agents.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\utils\\callbacks.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\utils\\callbacks.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\utils\\files.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\utils\\files.py'
+--------------------------------------------------------------------------------
+
+67:20: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\utils\\register.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\utils\\register.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'C:\\Users\\keith\\source\\repos\\SIMPLE\\app\\utils\\selfplay.py'
+ outputting to 'C:\\Users\\keith\\source\\repos\\SIMPLE\\apptf2O9\\utils\\selfplay.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
